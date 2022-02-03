@@ -10,9 +10,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'dist/components/index.js',
+  input: 'dist/components/my-stencil-component.js',
   output: {
-    file: 'dist/components/index.bundled.js',
+    file: 'dist/components/my-stencil-component.bundled.js',
     format: 'iife',
   },
   onwarn(warning) {
