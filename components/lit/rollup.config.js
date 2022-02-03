@@ -13,7 +13,7 @@ export default {
   input: 'dist/my-element/my-element.js',
   output: {
     file: 'dist/my-element/my-element.bundled.js',
-    format: 'esm',
+    format: 'iife',
   },
   onwarn(warning) {
     if (warning.code !== 'THIS_IS_UNDEFINED') {

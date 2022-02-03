@@ -13,7 +13,7 @@ export default {
   input: 'dist/custom-elements/index.js',
   output: {
     file: 'dist/custom-elements/index.bundled.js',
-    format: 'esm',
+    format: 'iife',
   },
   onwarn(warning) {
     if (warning.code !== 'THIS_IS_UNDEFINED') {
