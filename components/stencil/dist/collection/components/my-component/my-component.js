@@ -9,7 +9,7 @@ export class MyComponent {
       "Hello, World! I'm ",
       this.getText());
   }
-  static get is() { return "my-component"; }
+  static get is() { return "my-stencil-component"; }
   static get encapsulation() { return "shadow"; }
   static get originalStyleUrls() { return {
     "$": ["my-component.css"]

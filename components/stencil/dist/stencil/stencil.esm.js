@@ -1,1 +1,1 @@
-import{p as t,b as m}from"./p-5ac3f15d.js";(()=>{const m=import.meta.url,o={};return""!==m&&(o.resourcesUrl=new URL(".",m).href),t(o)})().then((t=>m([["p-b8736071",[[1,"my-component",{first:[1],middle:[1],last:[1]}]]]],t)));
+import{p as t,b as s}from"./p-5ac3f15d.js";(()=>{const s=import.meta.url,e={};return""!==s&&(e.resourcesUrl=new URL(".",s).href),t(e)})().then((t=>s([["p-2051424e",[[1,"my-stencil-component",{first:[1],middle:[1],last:[1]}]]]],t)));

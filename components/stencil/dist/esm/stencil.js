@@ -13,5 +13,5 @@ const patchBrowser = () => {
 };
 
 patchBrowser().then(options => {
-  return bootstrapLazy([["my-component",[[1,"my-component",{"first":[1],"middle":[1],"last":[1]}]]]], options);
+  return bootstrapLazy([["my-stencil-component",[[1,"my-stencil-component",{"first":[1],"middle":[1],"last":[1]}]]]], options);
 });
