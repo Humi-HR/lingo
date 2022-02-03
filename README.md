@@ -2,7 +2,7 @@
 
 Experimental Lingo Design System
 
-### Usage Example
+### Framework Agnostic Usage Example
 
 ```html
 <script src="custom-stencil-element.bundled.js"></script>
@@ -20,3 +20,7 @@ Experimental Lingo Design System
     <my-lit-element></my-lit-element>
 </div>
 ```
+
+### Additional Reading
+
+https://micro-frontends.org/
