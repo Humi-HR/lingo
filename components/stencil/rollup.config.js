@@ -10,9 +10,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'dist/custom-elements/index.js',
+  input: 'dist/components/index.js',
   output: {
-    file: 'dist/custom-elements/index.bundled.js',
+    file: 'dist/components/index.bundled.js',
     format: 'iife',
   },
   onwarn(warning) {
