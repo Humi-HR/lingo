@@ -9,7 +9,7 @@ Experimental Lingo Design System
 <script src="custom-lit-element.bundled.js"></script>
 ```
 
-```typescript
+```html
 <div class="ui segment">
     <h2>Lingo Element Demo</h2>
 
